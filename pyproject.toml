@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "clean-architecture-project"
+version = "0.1.0"
+description = ""
+authors = ["Cloves Paiva <clovesgtx@gmail.com>"]
+readme = "README.md"
+packages = [{include = "clean_architecture_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.3"
+black = "^22.8.0"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
